@@ -12,8 +12,17 @@ gitコマンドについて学ぶためのリポジトリーです。
 touch ファイル名
 
 
+###ブランチ作成
+git branch ブランチ名
+
+
+###ブランチを切り替える ※gitではチェックアウトという
+git checkout 切り替える先のブランチ名
+
+
 ###初期化
 git init
+
 
 ###変更点を参照する
 git diff ファイル名
@@ -33,3 +42,4 @@ git remote add origin リポジトリーURL
 
 ###リポジトリーに登録
 git push -u origin master
+
